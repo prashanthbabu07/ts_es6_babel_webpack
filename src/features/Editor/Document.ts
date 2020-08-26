@@ -1,14 +1,14 @@
 import { Page } from "./Page";
 
 export class Document {
-    pages: Page[]
+    private _pages: Page[]
 
     constructor() {
-        this.pages = [];
+        this._pages = [];
     }
 
     add(page: Page): void {
-        this.pages.push(page);
+        this._pages.push(page);
     }
 
 }

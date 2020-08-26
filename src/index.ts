@@ -15,6 +15,8 @@ let component = function () {
   var d = new Document();
   d.add(new Page(1));
 
+  add(1, 100);
+
 
   return element;
 }
